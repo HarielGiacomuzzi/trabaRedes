@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		DB7C30A71CFF812500040771 /* TrabalhoRedes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TrabalhoRedes; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7C30AA1CFF812500040771 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DB7C30B11CFF829100040771 /* rede1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rede1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				DB7C30AA1CFF812500040771 /* main.swift */,
+				DB7C30B11CFF829100040771 /* rede1.txt */,
 			);
 			path = TrabalhoRedes;
 			sourceTree = "<group>";
