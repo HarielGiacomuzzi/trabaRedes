@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB249D181D103B2D00B47406 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB249D171D103B2D00B47406 /* Node.swift */; };
 		DB7C30AB1CFF812500040771 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C30AA1CFF812500040771 /* main.swift */; };
+		DB7C30B51CFF88EB00040771 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C30B41CFF88EB00040771 /* Parser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +25,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DB249D171D103B2D00B47406 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		DB7C30A71CFF812500040771 /* TrabalhoRedes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TrabalhoRedes; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7C30AA1CFF812500040771 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DB7C30B11CFF829100040771 /* rede1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rede1.txt; sourceTree = "<group>"; };
+		DB7C30B41CFF88EB00040771 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			children = (
 				DB7C30AA1CFF812500040771 /* main.swift */,
 				DB7C30B11CFF829100040771 /* rede1.txt */,
+				DB7C30B41CFF88EB00040771 /* Parser.swift */,
+				DB249D171D103B2D00B47406 /* Node.swift */,
 			);
 			path = TrabalhoRedes;
 			sourceTree = "<group>";
@@ -121,6 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB249D181D103B2D00B47406 /* Node.swift in Sources */,
+				DB7C30B51CFF88EB00040771 /* Parser.swift in Sources */,
 				DB7C30AB1CFF812500040771 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +251,7 @@
 				DB7C30B01CFF812500040771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
