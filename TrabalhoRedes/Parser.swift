@@ -64,11 +64,18 @@ class Parser: NSObject {
         }
     }
     
+    func getNodebyName(name : String) -> Node{
+        var aux = self.nodes.filter { (Node) -> Bool in
+            Node.name == name
+        }
+        return aux[0]
+    }
+    
     func getRouterByName(name : String) -> Router{
         var aux = self.routers.filter { (Router) -> Bool in
             Router.name == name
         }
-        return aux[0];
+        return aux[0]
     }
     
 }
