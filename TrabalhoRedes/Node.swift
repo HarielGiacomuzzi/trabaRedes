@@ -17,8 +17,9 @@ class Node: NSObject {
     var MTU : Int!
     
     init(ip : String, macAddress : String, name : String, defaultGateway : String, MTU : String) {
+        super.init()
         for aux in ip.componentsSeparatedByString("."){
-            self.ip += aux.utf8
+            self.ip.append(UInt8(aux)!)
         }
     }
 }

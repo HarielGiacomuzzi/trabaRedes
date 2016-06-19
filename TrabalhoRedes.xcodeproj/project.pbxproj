@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DB249D181D103B2D00B47406 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB249D171D103B2D00B47406 /* Node.swift */; };
+		DB249D1A1D106E5D00B47406 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB249D191D106E5D00B47406 /* Router.swift */; };
+		DB249D1C1D107F4D00B47406 /* RouterRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB249D1B1D107F4D00B47406 /* RouterRule.swift */; };
 		DB7C30AB1CFF812500040771 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C30AA1CFF812500040771 /* main.swift */; };
 		DB7C30B51CFF88EB00040771 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C30B41CFF88EB00040771 /* Parser.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		DB249D171D103B2D00B47406 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		DB249D191D106E5D00B47406 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		DB249D1B1D107F4D00B47406 /* RouterRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterRule.swift; sourceTree = "<group>"; };
 		DB7C30A71CFF812500040771 /* TrabalhoRedes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TrabalhoRedes; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7C30AA1CFF812500040771 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DB7C30B11CFF829100040771 /* rede1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rede1.txt; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				DB7C30B11CFF829100040771 /* rede1.txt */,
 				DB7C30B41CFF88EB00040771 /* Parser.swift */,
 				DB249D171D103B2D00B47406 /* Node.swift */,
+				DB249D191D106E5D00B47406 /* Router.swift */,
+				DB249D1B1D107F4D00B47406 /* RouterRule.swift */,
 			);
 			path = TrabalhoRedes;
 			sourceTree = "<group>";
@@ -127,7 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB249D1A1D106E5D00B47406 /* Router.swift in Sources */,
 				DB249D181D103B2D00B47406 /* Node.swift in Sources */,
+				DB249D1C1D107F4D00B47406 /* RouterRule.swift in Sources */,
 				DB7C30B51CFF88EB00040771 /* Parser.swift in Sources */,
 				DB7C30AB1CFF812500040771 /* main.swift in Sources */,
 			);

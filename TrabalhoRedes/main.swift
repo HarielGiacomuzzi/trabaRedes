@@ -9,5 +9,6 @@
 import Foundation
 
 var p = Parser(location: Process.arguments[1])
+print("oi")
 
 
